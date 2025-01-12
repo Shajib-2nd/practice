@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Fira Sans", serif;
+    margin: 24px 160px;
+    background-color: #F1F1F3;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 150px;
+    height: 52px;
+    color: #006A50;
+    text-align: center;
+    background-color: #F1F1F3;
+    border: 2px solid #006A50;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #006A50;
+    color: #F1F1F3;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    margin-top: 100px;
+    background-color: #a7d0c7;
+    border-radius: 24px;
+    padding: 50px 80px;
+}
+
+.banner h4 {
+    color: #635f5f;
+    font: bold;
+    font-size: 30px;
+
+}
+
+.banner h2 {
+    font: bold;
+    font-size: 60px;
+}
+
+.banner button {
+    width: 220px;
+    height: 60px;
+    background-color: #006A50;
+    color: #F1F1F3;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+
+}
+
+.banner button:hover {
+    background-color: #073f13;
+}
+    
+
+.vision {
+    margin-top: 70px;
+}
+
+.vision h1 {
+    font-size: 50px;
+    font: bold;
+}
+
+.vision p {
+    font-size: 20px;
+    font: bold;
+    color: #656363;
+}
+
+.main_vision {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.child_vision_01 {
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 10px;
+    padding: 10px 20px;
+    height: 280px;
+    width: 535px;
+}
+
+.main_vision > div > h2 {
+    font: bold;
+}
+
+.main_vision > div > p {
+    color: #424040;
+}
+
+.child_vision_01 button {
+    width: 122px;
+    min-height: 41px;
+    background-color: rgb(84, 144, 245);;
+    color: #F1F1F3;
+    border: none;
+    border-radius: 8px;
+}
+
+.child_vision_01 button:hover {
+    color: #0E0E0E;
+}
+
+.child_vision_02 {
+    background-color: rgb(198, 228, 214);;
+    border-radius: 10px;
+    padding: 10px 20px;
+    height: 280px;
+    width: 535px;
+}
+
+.child_vision_02 button {
+    width: 122px;
+    min-height: 41px;
+    color: #F1F1F3;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(9, 161, 92);;
+}
+
+.child_vision_02 button:hover {
+    color: #0E0E0E;
+}
+
+
+
+
+.child_vision_03 {
+    background-color: rgb(247, 235, 207);
+    border-radius: 10px;
+    padding: 10px 20px;
+    height: 280px;
+    width: 535px;
+}
+
+.child_vision_03 button {
+    width: 122px;
+    min-height: 41px;
+    color: #F1F1F3;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(255, 194, 57);
+
+}
+
+.child_vision_03 button:hover {
+    color: #0E0E0E;
+}
+
+
+
+
+.Md_Yunus {
+    border: 2px solid rgb(174, 170, 170);
+    border-radius: 16px;
+    background-color: white;
+    color: #0E0E0E;
+    margin-top: 50px;
+    padding: 15px 25px;
+    position: relative;
+}
+
+.Md_Yunus img {
+    position: absolute;
+    top: 0px;
+    left: 27px;
+}
+
+.Md_Yunus p {
+    color: #656363;
+}
+
+.Md_Yunus h3 {
+    font: bold;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.Md_Yunus h5 {
+    color: rgba(14, 14, 14, 0.6)
+}
+
+
+
+
+.recent_news {
+    margin-top: 60px;
+}
+
+.recent_news h1 {
+    font: bold;
+    font-size: 45px;
+
+}
+
+.recent_news p {
+    color: #656363;
+}
+
+.recent_news_div1 {
+    background-color: white;
+    border-radius: 16px;
+    border: 2px solid rgb(152, 148, 148);
+    display: flex;
+    align-items: center;
+    gap: 37px;
+    padding: 20px 30px;
+}
+
+.recent_news_div1 img {
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.recent_news_div1 img:hover {
+    background-color: #d4edda;
+    transform: scale(1.05);
+}
+
+.date-time {
+    display: flex;
+    gap: 5px;
+    font-size: 15px;
+    color: #656363;
+}
+
+.recent_news_div1 p {
+    color: #656363;
+}
+
+.recent_news_div1 button {
+    width: 139px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: rgb(0, 106, 80);
+    color: #F1F1F3;
+}
+
+.recent_news_div1 button:hover {
+    color: #0E0E0E;
+}
+
+
+.recent_news_div2 {
+    background-color: white;
+    border-radius: 16px;
+    border: 2px solid rgb(152, 148, 148);
+    display: flex;
+    align-items: center;
+    gap: 297px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+
+}
+
+.recent_news_div2 img {
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.recent_news_div2 img:hover {
+    background-color: #d4edda;
+    transform: scale(1.05);
+}
+
+.recent_news_div2 button {
+    width: 139px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: rgb(0, 106, 80);
+    color: #F1F1F3;
+}
+
+.recent_news_div2 button:hover {
+    color: #0E0E0E;
+}
+
+
+
+
+
+
+.Donate-Today {
+    margin-bottom: 100px;
+}
+
+.Donate-Today h1 {
+    font: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.Donate-Today p {
+    color: #656363;
+    text-align: center;
+}
+
+.Donate {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Donate1 {
+    font-size: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: #656363;
+    width: 240px;
+    height: 128px;
+    text-align: center;
+    margin: 30px 30px;
+    /* cursor: pointer; */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.Donate1:hover {
+    background-color: #d4edda;
+    transform: scale(1.05);
+
+}
+
+.Donate2 {
+    font-size: 30px;
+    background-color: #80c5a6;
+    border-radius: 10px;
+    box-shadow: #656363;
+    width: 240px;
+    height: 128px;
+    text-align: center;
+    margin: 30px 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.Donate3 {
+    font-size: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: #656363;
+    width: 240px;
+    height: 128px;
+    text-align: center;
+    margin: 30px 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.Donate3:hover {
+    background-color: #d4edda;
+    transform: scale(1.05);
+}
+
+.Donate4 {
+    font-size: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: #656363;
+    width: 240px;
+    height: 128px;
+    text-align: center;
+    margin: 30px 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.Donate4:hover {
+    background-color: #d4edda;
+    transform: scale(1.05);
+}
+
+.Donate-txt-3 {
+    width: 1032px;
+    height: 64px;
+    background-color: #F1F1F3;
+    border: 2px solid rgb(207, 198, 198);
+    text-align: center;
+    margin-left: 30px;
+    margin-left: 30px;
+
+}
+
+.input-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-txt input {
+    width: 1050px;
+    padding: 10px;
+    border: none;
+    box-shadow: #656363;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.input-txt ::placeholder {
+    color: #656363;
+    font-size: 20px;
+}
+
+.done-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.done-button button {
+    width: 151px;
+    height: 56px;
+    text-align: center;
+    padding: 12px 25px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #2d6039;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.done-button button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+
+.subscribe-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-container {
+    width: 1280px;
+    height: 395px;
+    border: 2px solid rgb(149, 143, 143);
+    border-radius: 24px;
+    background-color: #C6E4D6;
+    padding: 50px 50px;
+    text-align: center;
+}
+
+.subscribe-container h1 {
+    font: bold;
+    font-size: 40px;
+}
+
+.subscribe-container h2 {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.subscribe-container h3 {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    text-align: center;
+}
+
+.input-btn {
+    display: flex;
+    width: 800px;
+    max-width: 90%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: #656363;
+    margin-left: 250px;
+}
+
+
+.input-btn input {
+    width: 600px;
+    padding: 15px;
+    border: none;
+    font-size: 15px;
+}
+
+.input-btn input:focus {
+    outline: none;
+    border: none;
+}
+
+.input-btn input::placeholder {
+    color: #999;
+}
+
+.input-btn button {
+    background-color: #006400;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-btn button:hover {
+    background-color: #006A50;
+    color: #040405;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
